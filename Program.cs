@@ -10,6 +10,8 @@ namespace MyGit
     {
         static void Main(string[] args)
         {
+            fish f = new fish() { Name = "fish1", Weight=100, Price=200};
+            Console.WriteLine(f.ToString());
         }
     }
 }
